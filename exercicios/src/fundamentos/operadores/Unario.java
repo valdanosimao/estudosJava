@@ -7,6 +7,8 @@ public class Unario {
 		int a = 1;
 		int b = 2;
 		
+		System.out.println(a+b);
+		
 		//pós fixada
 		a++; // a = a + 1
 		a--; // a = a - 1
@@ -14,6 +16,8 @@ public class Unario {
 		// pré fixada
 		++b; // b = b + 1;
 		--b; // b = b - 1;
+		
+		
 
 	}
 
