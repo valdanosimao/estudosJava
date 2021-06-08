@@ -13,6 +13,9 @@ public class WhileInderterminado {
 		while(!valor.equalsIgnoreCase("sair")) {
 			System.out.print("Você diz: ");
 			valor = scan.nextLine();
+			
+			
+			scan.close();
 		}
 
 	}
