@@ -8,6 +8,8 @@ public class TesteCalculadora {
 		calc.soma(3,5);
 		calc.soma(4.6, 7.9);
 		calc.soma(2, 3, 7);
+		
+	
 
 	}
 

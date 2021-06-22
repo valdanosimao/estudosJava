@@ -1,4 +1,4 @@
-package encapsulamento;
+package getterSetter;
 
 public class AppCarro {
 
