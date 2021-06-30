@@ -7,14 +7,16 @@ public class ControleRemoto implements Controlador {
 	private boolean ligado;
 	private boolean tocando;
 
-	// Métodos Especiais
+	// Métodos Especiais e getter/setter
+	
+	// Construtor
 	public ControleRemoto() {
 		this.volume = 50;
 		this.ligado = false;
 		this.tocando = false;
 	}
 
-	// Métodos getter/setter
+	
 	public int getVolume() {
 		return volume;
 	}
@@ -38,15 +40,15 @@ public class ControleRemoto implements Controlador {
 	public void setTocando(boolean tocando) {
 		this.tocando = tocando;
 	}
+	
 
+	//Métodos abstratos
 	public void ligar() {
 		this.setLigado(true);
-
 	}
 
 	public void desligar() {
 		this.setLigado(false);
-
 	}
 
 	public void abrirMenu() {
