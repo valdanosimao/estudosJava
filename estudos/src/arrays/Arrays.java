@@ -1,7 +1,5 @@
 package arrays;
 
-import java.util.Iterator;
-
 public class Arrays {
 
 	public static void main(String[] args) {
