@@ -1,4 +1,4 @@
-package heranca;
+package heranca1;
 
 public class ProgramaPrincipal {
 
@@ -18,6 +18,8 @@ public class ProgramaPrincipal {
 		p2.setCurso("Informatica");
 		p3.setSalario(2500.79);
 		p4.setSetor("Estoque");		
+		
+		p4.fazerAniversario();
 		
 	//	p2.receberAumento();
 		

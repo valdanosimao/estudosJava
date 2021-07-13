@@ -19,7 +19,7 @@ public class Desafio {
 		double n2 = scan.nextDouble();
 		
 		System.out.println("Digite a terceira nota do Aluno");
-		double n3 = scan.nextDouble();
+		//double n3 = scan.nextDouble();
 		
 		System.out.println("Digite a quarta nota do Aluno");
 		double n4 = scan.nextDouble();
