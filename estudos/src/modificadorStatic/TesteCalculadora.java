@@ -8,8 +8,7 @@ public class TesteCalculadora {
 				
 		MinhaCalculadora.soma(4, 7);	
 		MinhaCalculadora.somar(4, 6, 6);
-		MinhaCalculadora.somando(3, 5);	
-	
+		MinhaCalculadora.somando(3, 5);		
 
 	}
 
