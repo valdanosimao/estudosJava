@@ -1,4 +1,4 @@
-package equalsHashcode;
+package colections.equals;
 
 public class EqualHashcode {
 	public static void main(String[] args) {
@@ -10,6 +10,9 @@ public class EqualHashcode {
 		Usuario u2 = new Usuario();		
 		u2.nome = "Valdano";
 		u2.email = "valdanosimao@gmail.com";
+		
+		System.out.println(u1 == u2); //comparando endereço de memória
+		System.out.println(u1.equals(u2));
 		
 	}
 }
