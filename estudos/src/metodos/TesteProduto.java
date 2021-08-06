@@ -25,9 +25,6 @@ public class TesteProduto {
 			System.out.printf("O valor do PC Gamer é R$%.2f\n" , p2.preco);
 				System.out.printf("O desconto do vendedor foi de %.2f\n " , p2.desconto);
 					System.out.printf("O valot total do produto é R$ %.2f\n\n" , p2.precoComDesconto(0.1));			
-							
-		
-			
 			
 
 	}

@@ -1,10 +1,16 @@
-package projetoBanco;
+package exception;
 
 import java.util.Scanner;
 
-public class App {
+import javax.swing.JOptionPane;
 
+import com.sun.source.tree.CatchTree;
+
+public class App {
+	
 	public static void main(String[] args) {
+		
+		try {
 		
 		Scanner scan = new Scanner(System.in);
 		
@@ -42,7 +48,13 @@ public class App {
 			System.out.println("Numero inválido, por favor Digite 1 para depositar ou 2 para sacar");
 		}	
 		
-		scan.close();
+		scan.close();	
+		
 	}
-
+	catch (Exception e) {
+		e.printStackTrace(); //imprime erro no console java
+		JOptionPane.showInternalMessageDialog(null, e);
+	}
+	
+	}
 }

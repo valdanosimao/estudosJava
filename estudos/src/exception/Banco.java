@@ -1,4 +1,4 @@
-package projetoBanco;
+package exception;
 
 public class Banco {
 	
