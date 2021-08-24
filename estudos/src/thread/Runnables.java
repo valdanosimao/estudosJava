@@ -5,7 +5,8 @@ public class Runnables {
 	public static void main(String[] args) {		
 
 		Thread email = new Thread(thread1);
-		email.start();		
+		email.start();	
+		
 		
 		
 		Thread relatorio = new Thread(thread2);
@@ -13,7 +14,6 @@ public class Runnables {
 	
 
 	}	
-	
 	
 	
 	
