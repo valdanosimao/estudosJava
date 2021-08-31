@@ -12,7 +12,7 @@ public class EqualHashcode {
 		u2.email = "valdanosimao@gmail.com";
 		
 		System.out.println(u1 == u2); //comparando endereço de memória
-		System.out.println(u1.equals(u2));
+		System.out.println(u1.equals(u2));//USANDO O HASHCODE NA PRÁTICA
 		
 	}
 }

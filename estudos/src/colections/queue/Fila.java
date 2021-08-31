@@ -26,7 +26,7 @@ public class Fila {
 		
 		//Diferença é o comportamento ocorre
 		//quando a fila está vazia!
-		System.out.println(fila.peek()); //retorna false
+		System.out.println(fila.peek()); //retorna null
 		System.out.println(fila.peek());
 		System.out.println(fila.element()); //lança uma exceção
 		System.out.println(fila.element());
@@ -41,7 +41,7 @@ public class Fila {
 		//da fila e remove!
 		
 		//Diferença é o comportamento ocorre
-		//quando a fila est[a vazia!
+		//quando a fila está vazia!
 		System.out.println(fila.poll()); //retorna null
 		System.out.println(fila.poll());
 		System.out.println(fila.poll());

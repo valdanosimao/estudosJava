@@ -8,12 +8,11 @@ public class Pessoas {
 		private String nome;
 		
 		//Pessoas "tem uma lista" de contatos
-		List<Contatos> contato = new ArrayList<>();		
-		
+		List<Contatos> contato = new ArrayList<>();			
 		
 		public Pessoas() {
 	
-		}		
+		}
 
 		public Pessoas(String nome, List<Contatos> contato) {			
 			this.nome = nome;

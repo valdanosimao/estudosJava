@@ -1,16 +1,17 @@
 package colections.list;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Lista {
 
 	public static void main(String[] args) {
 		
-		ArrayList<Usuario> lista = new ArrayList<>();
+		//UMA LISTA DE USUÁRIO
+		List<Usuario> lista = new ArrayList<>();
 		
-		Usuario use = new Usuario("Ana");		
-
-		lista.add(use);
+		Usuario u1 = new Usuario("Ana");
+		lista.add(u1);
 		
 		lista.add(new Usuario("Del"));
 		lista.add(new Usuario("Anderson"));
@@ -18,7 +19,7 @@ public class Lista {
 		lista.add(new Usuario("João"));
 		lista.add(new Usuario("Geo"));
 		
-		System.out.println(lista.get(3).nome); //acessa pelo índice
+		System.out.println(lista.get(3)); //acessa pelo índice
 		
 		lista.remove(2); // remove pelo índice
 		lista.remove(new Usuario("Del")); // remove a partir de um objeto
@@ -26,7 +27,7 @@ public class Lista {
 		System.out.println("Tem? " + lista.contains(new Usuario("João")));
 		
 		for(Usuario u : lista) {
-			System.out.println(u);
+			System.out.println(u.nome);
 		}
 	}
 

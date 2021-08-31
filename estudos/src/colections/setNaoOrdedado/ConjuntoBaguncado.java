@@ -13,7 +13,8 @@ public class ConjuntoBaguncado {
 		conjunto.add(true); //boolean >>> Boolean
 		conjunto.add("teste"); //String
 		conjunto.add(1); //int >>> Interger
-		conjunto.add('x');
+		conjunto.add('x');	//char >>> Char	
+		System.out.println(conjunto);
 		
 		System.out.println("Tamanho do conjunto é " + conjunto.size());
 		

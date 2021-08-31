@@ -1,4 +1,4 @@
-package exception;
+package temporario;
 
 public class Banco {
 	

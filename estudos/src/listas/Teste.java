@@ -14,26 +14,28 @@ public class Teste {
 		Contatos c4 = new Contatos("Av jogador jose pedro Nº 35" ,"ednamariana@gmail.com","2324-4667");			
 		
 		
-		Pessoas p1 = new Pessoas();		
-		Pessoas p2 = new Pessoas();		
-		Pessoas p3 = new Pessoas();		
-		Pessoas p4 = new Pessoas();		
-		
-		//estou usando relacionamento entre objetos	
-		p1.getContato().add(c1);
+		Pessoas p1 = new Pessoas();			
 		p1.setNome("Valdano");
+		p1.getContato().add(c1);	
+		p1.getContato().add(c2);
 		
+		Pessoas p2 = new Pessoas();	
 		p2.getContato().add(c2);
 		p2.setNome("Tatiana");
 		
+		
+		Pessoas p3 = new Pessoas();		
 		p3.getContato().add(c3);
 		p3.setNome("Carla");
 		
+		
+		
+		Pessoas p4 = new Pessoas();		
 		p4.getContato().add(c4);
-		p4.setNome("Simão");	
+		p4.setNome("Simão");		
 		
 		
-		System.out.println(p3.toString());
+		System.out.println(p1.toString());
 		
 //		System.out.println("Localiza o objeto pelo index: " + p1.getContato().get(0));
 //		System.out.println("Removendo um objeto: " + p1.getContato().remove(c1));
