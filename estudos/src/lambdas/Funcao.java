@@ -8,8 +8,9 @@ public class Funcao {
 		
 		//andThen é um método de composição
 		
-		Function<Integer, String> parOuImpar
-		= numero -> numero % 2 == 0 ? "Par" : "Impar";  
+		//funcao que verifica par ou impar
+		Function<Integer, String> parOuImpar =
+				numero -> numero % 2 == 0 ? "Par" : "Impar";  
 		
 		Function<String, String> oResultadoE = 
 				valor -> "O resultado é: " + valor;

@@ -11,14 +11,14 @@ public class ForEach {
 				.asList("Ana" , "Boa" , "Ted" , "Boa");
 
 		System.out.println("Forma tradicional...");
-		for(String n : aprovados) {
-			System.out.println(n);
+		for(String nome : aprovados) {
+			System.out.println(nome);
 		}
 		
 		System.out.println("\nForma 01... ");
-		aprovados.forEach((n) -> {System.out.println(n + "!!!");});
-		//se for um único parâmetro, não precisa de parênteses no (n) ===>> aprovados.forEach(n -> {System.out.println(n + "!!!");});	
-		//se for uma única sentença de código não precisa de chaves {} ===>> aprovados.forEach(n -> System.out.println(n + "!!!"));
+		aprovados.forEach((nome) -> {System.out.println(nome + "!!!");});
+		//se for um único parâmetro, não precisa de parênteses no (nome) ===>> aprovados.forEach(nome -> {System.out.println(n + "!!!");});	
+		//se for uma única sentença de código não precisa de chaves {} ===>> aprovados.forEach(nome -> System.out.println(n + "!!!"));
 		
 		System.out.println("\nMethod Refence ... ");
 		aprovados.forEach(System.out::println);
