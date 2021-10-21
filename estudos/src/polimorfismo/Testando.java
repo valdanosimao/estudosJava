@@ -11,7 +11,12 @@ public class Testando {
 		
 		pagto.relatorioPagamentoGerente(g);
 		pagto.relatorioPagamentoVendedor(v);
-
+		
+		Produto produto = new Computador("Nitro 5" , 5454.00);
+		
+		produto.setNome("Notebook Gamer");
+		produto.setPreco(5500.00);
+	
 	}
 
 }

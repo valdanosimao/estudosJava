@@ -17,22 +17,13 @@ public class Teste {
 		Pessoas p1 = new Pessoas();			
 		p1.setNome("Valdano");
 		p1.getContato().add(c1);	
-		p1.getContato().add(c2);
+		p1.getContato().add(c2);		
+		p1.getContato().add(c4);
 		
 		Pessoas p2 = new Pessoas();	
 		p2.getContato().add(c2);
-		p2.setNome("Tatiana");
+		p2.setNome("Tatiana");		
 		
-		
-		Pessoas p3 = new Pessoas();		
-		p3.getContato().add(c3);
-		p3.setNome("Carla");
-		
-		
-		
-		Pessoas p4 = new Pessoas();		
-		p4.getContato().add(c4);
-		p4.setNome("Simão");		
 		
 		
 		System.out.println(p1.toString());
