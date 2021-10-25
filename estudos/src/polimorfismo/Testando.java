@@ -12,6 +12,11 @@ public class Testando {
 		pagto.relatorioPagamentoGerente(g);
 		pagto.relatorioPagamentoVendedor(v);
 		
+		
+		
+		
+		
+		//polimorfismo
 		Produto produto = new Computador("Nitro 5" , 5454.00);
 		
 		produto.setNome("Notebook Gamer");

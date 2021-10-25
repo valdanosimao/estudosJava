@@ -17,6 +17,8 @@ public abstract class Funcionario {
 	public String toString() {
 		return "Funcionario [nome=" + nome + ", salario=" + salario + "]";
 	}
+	
+	
 	public String getNome() {
 		return nome;
 	}
