@@ -18,8 +18,13 @@ public class Pilha {
 	System.out.println(livros.peek());
 	System.out.println(livros.element());
 	
-	System.out.println(livros.pop());//REMOVE
-	System.out.println(livros.poll());
+	System.out.println(livros.pop());
+	System.out.println(livros.poll()); //REMOVE DA PILHA
+	
+	//livros.size();tamanho
+	//livros.clear(); limpar
+	//livros.contains(); tem?
+	//livros.isEmpty(); está vazia?
 	
 	
 	}

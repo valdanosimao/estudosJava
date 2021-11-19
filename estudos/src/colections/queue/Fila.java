@@ -11,24 +11,20 @@ public class Fila {
 		
 		//Offer e Add -> adicionam elementos na fila
 		
-		//Diferença é o comportamento que ocorre
-		//quando a fila está cheia!
-		
-		fila.add("Ana");// retorna false
+		//Diferença é o comportamento que ocorre quando a fila está cheia!			
+		fila.add("Ana"); // retorna false
 		fila.offer("Bia"); //Lança uma exceção
 		fila.add("Carlos");
 		fila.offer("Daniel");
 		fila.add("Rafaela");
 		fila.offer("Gui");
 		
-		//Peek e Element -> obter o próximo elemento
-		//da fila (Sem remover)
+		//Peek e Element -> obter o próximo elemento da fila (Sem remover)		
 		
-		//Diferença é o comportamento ocorre
-		//quando a fila está vazia!
-		System.out.println(fila.peek()); //retorna null
+		//Diferença é o comportamento ocorre quando a fila está vazia!		
+		System.out.println(fila.peek()); //caso vazia vai retorna null
 		System.out.println(fila.peek());
-		System.out.println(fila.element()); //lança uma exceção
+		System.out.println(fila.element()); //caso vazia vai lançar uma exceção
 		System.out.println(fila.element());
 		
 		//fila.size(); tamanho
@@ -40,11 +36,11 @@ public class Fila {
 		//poll e remove -> obtem o próximo elemento
 		//da fila e remove!
 		
-		//Diferença é o comportamento ocorre
-		//quando a fila está vazia!
-		System.out.println(fila.poll()); //retorna null
+		//Diferença é o comportamento ocorre quando a fila está vazia!		
+		System.out.println(fila.poll()); //remove um elemento, caso vazio retorna null
 		System.out.println(fila.poll());
 		System.out.println(fila.poll());
+		System.out.println(fila.remove()); // no caso do remove, caso vazia ele vai jogar uma exceção
 		
 	}
 

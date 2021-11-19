@@ -2,6 +2,7 @@ package colections.setOrdenado;
 
 import java.util.HashSet;
 import java.util.Set;
+import java.util.SortedSet;
 import java.util.TreeSet;
 
 public class Conjunto {
@@ -12,7 +13,7 @@ public class Conjunto {
 		//Set<String> listaAprovados = new HashSet<String>();
 		
 		//O TREESET GARANTE A ORGEM DE INSERÇÃO
-		Set<String> listaAprovados = new TreeSet<>();
+		SortedSet<String> listaAprovados = new TreeSet<>();
 
 		listaAprovados.add("Ricardo");
 		listaAprovados.add("Ana");
@@ -21,9 +22,8 @@ public class Conjunto {
 		
 		for(String candidato : listaAprovados) {
 			System.out.println(candidato);
-		}
+		}		
 		
-		//ele não aceita valor int, tem que ser o Integer, ou seja uma Classe do tipo primitivo!!!
 		Set<Integer> nums = new HashSet<>();
 
 		nums.add(1);
