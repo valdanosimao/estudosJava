@@ -1,5 +1,4 @@
 package lambdas;
-
 import java.util.Arrays;
 import java.util.List;
 
@@ -7,8 +6,7 @@ public class ForEach {
 
 	public static void main(String[] args) {
 		
-		List<String> aprovados = Arrays
-				.asList("Ana" , "Boa" , "Ted" , "Boa");
+		List<String> aprovados = Arrays.asList("Ana" , "Boa" , "Ted" , "Boa");
 
 		System.out.println("Forma tradicional...");
 		for(String nome : aprovados) {
@@ -31,10 +29,7 @@ public class ForEach {
 		System.out.println("\nMethod Refence 03... ");
 		aprovados.forEach(ForEach::meuImprimir); // passando uma referência para uma funçao que eu criei
 		
-		}	
-		
-	
-	
+		}		
 		
 	static void meuImprimir(String nome) {
 		System.out.println("Oi meu nome é " + nome);

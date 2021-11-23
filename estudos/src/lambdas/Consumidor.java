@@ -8,6 +8,8 @@ public class Consumidor {
 
 	public static void main(String[] args) {
 		
+		//CONSUMER = REPRESENTA UMA OPERAÇÃO QUE ACEITA UM ÚNICO PARÂMETRO E NÃO RETORNA NADA
+		
 		Consumer<Produto> imprimir = p -> System.out.println(p.nome);
 		
 		Produto p1 = new Produto("Caneta" , 12.34 , 0.65);
