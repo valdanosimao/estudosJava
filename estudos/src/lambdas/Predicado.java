@@ -6,7 +6,7 @@ public class Predicado {
 
 	public static void main(String[] args) {
 		
-		//recebe um parâmetro e retorna verdadeiro ou falso
+		//PREDICATE = recebe um parâmetro e retorna verdadeiro ou falso
 		
 		Predicate<Produto> isCaro = prod -> (prod.preco * (1 - prod.desconto)) >= 750;
 				

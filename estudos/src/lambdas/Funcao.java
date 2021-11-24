@@ -6,6 +6,8 @@ public class Funcao {
 
 	public static void main(String[] args) {
 		
+		//FUNCTION = ACEITA UM ÚNICO ARGUMENTO E PRODUZ O RESULTADO 
+		
 		//andThen é um método de composição
 		
 		//funcao que verifica par ou impar
